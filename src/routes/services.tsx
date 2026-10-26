@@ -4,9 +4,9 @@ import { Shell, PageHeader, services } from "@/components/site";
 export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
-      { title: "Services | Kari Jonsson, WHNP-BC" },
+      { title: "Services | Kari Jonsson, MSN, RN, WHNP-BC" },
       { name: "description", content: "Well-woman exams, contraception, menopause, prenatal and gynecologic care." },
-      { property: "og:title", content: "Services | Kari Jonsson, WHNP-BC" },
+      { property: "og:title", content: "Services | Kari Jonsson, MSN, RN, WHNP-BC" },
       { property: "og:description", content: "Comprehensive women's health services." },
     ],
   }),

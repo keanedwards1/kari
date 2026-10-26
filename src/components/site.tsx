@@ -14,7 +14,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <header className="border-b border-border bg-background/90 backdrop-blur sticky top-0 z-20">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <Link to="/" className="font-display text-2xl text-primary">
-            Kari Jonsson<span className="text-accent-foreground">, WHNP-BC</span>
+            Kari Jonsson<span className="text-accent-foreground">, MSN, RN, WHNP-BC</span>
           </Link>
           <nav className="hidden gap-8 text-sm md:flex">
             {nav.map((n) => (
@@ -32,7 +32,7 @@ export function Shell({ children }: { children: ReactNode }) {
       <footer className="mt-24 bg-primary text-primary-foreground">
         <div className="mx-auto grid max-w-6xl gap-8 px-6 py-12 md:grid-cols-3 text-sm">
           <div>
-            <p className="font-display text-xl">Kari Jonsson, WHNP-BC</p>
+            <p className="font-display text-xl">Kari Jonsson, MSN, RN, WHNP-BC</p>
             <p className="mt-2 opacity-80">Women's Health Nurse Practitioner</p>
           </div>
           <div className="opacity-80">
@@ -40,8 +40,8 @@ export function Shell({ children }: { children: ReactNode }) {
             <p>Fri 8:30am – 12:00pm</p>
           </div>
           <div className="opacity-80">
-            <p>(555) 123-4567</p>
-            <p>hello@karijonssonwhnp.com</p>
+            <p>(415) 830-7750</p>
+            <p>karijonsson415@gmail.com</p>
           </div>
         </div>
       </footer>

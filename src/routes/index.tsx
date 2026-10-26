@@ -5,9 +5,9 @@ import hero from "@/assets/hero.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Kari Jonsson, WHNP-BC | Women's Health Nurse Practitioner" },
-      { name: "description", content: "Compassionate, personalized women's health care from Kari Jonsson, WHNP-BC — well-woman exams, contraception, menopause care and more." },
-      { property: "og:title", content: "Kari Jonsson, WHNP-BC | Women's Health" },
+      { title: "Kari Jonsson, MSN, RN, WHNP-BC | Women's Health Nurse Practitioner" },
+      { name: "description", content: "Compassionate, personalized women's health care from Kari Jonsson, MSN, RN, WHNP-BC — well-woman exams, contraception, menopause care and more." },
+      { property: "og:title", content: "Kari Jonsson, MSN, RN, WHNP-BC | Women's Health" },
       { property: "og:description", content: "Compassionate women's health care at every stage of life." },
     ],
   }),
@@ -22,7 +22,7 @@ function Index() {
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Women's Health Nurse Practitioner</p>
           <h1 className="mt-5 font-display text-5xl leading-tight md:text-6xl">Care that listens, at every stage of life.</h1>
           <p className="mt-6 text-lg text-muted-foreground">
-            I'm Kari Jonsson, WHNP-BC. I provide thoughtful, evidence-based gynecologic and reproductive care in an unhurried, welcoming setting.
+            I'm Kari Jonsson, MSN, RN, WHNP-BC. I provide thoughtful, evidence-based gynecologic and reproductive care in an unhurried, welcoming setting.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/contact" className="rounded-full bg-primary px-6 py-3 text-primary-foreground hover:opacity-90">Schedule an appointment</Link>
