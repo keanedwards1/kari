@@ -22,7 +22,7 @@ function Index() {
           <p className="text-xs uppercase tracking-[0.25em] text-primary">Women's Health Nurse Practitioner</p>
           <h1 className="mt-5 font-display text-5xl leading-tight md:text-6xl">Care that listens, at every stage of life.</h1>
           <p className="mt-6 text-lg text-muted-foreground">
-            I'm Kari Jonsson, MSN, RN, WHNP-BC. I provide thoughtful, evidence-based gynecologic and reproductive care in an unhurried, welcoming setting.
+            I'm Kari Jonsson, MSN, RN, WHNP-BC. I offer trauma-informed, inclusive, evidence-based care across prenatal, postpartum, gynecologic and sexual &amp; reproductive health.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/contact" className="rounded-full bg-primary px-6 py-3 text-primary-foreground hover:opacity-90">Schedule an appointment</Link>
