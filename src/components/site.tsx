@@ -36,8 +36,8 @@ export function Shell({ children }: { children: ReactNode }) {
             <p className="mt-2 opacity-80">Women's Health Nurse Practitioner</p>
           </div>
           <div className="opacity-80">
-            <p>Mon–Thu 8:30am – 5:00pm</p>
-            <p>Fri 8:30am – 12:00pm</p>
+            <p>San Francisco Bay Area, California</p>
+            <p>Trauma-informed · Inclusive · Evidence-based</p>
           </div>
           <div className="opacity-80">
             <p>(415) 830-7750</p>
@@ -62,10 +62,10 @@ export function PageHeader({ eyebrow, title, intro }: { eyebrow: string; title: 
 }
 
 export const services = [
-  { title: "Annual Well-Woman Exams", text: "Comprehensive preventive visits, Pap smears, HPV testing and breast exams." },
-  { title: "Contraception Counseling", text: "IUD and implant placement, pills, patches and personalized family planning." },
-  { title: "Menopause & Hormone Care", text: "Evidence-based support for perimenopause, menopause and hormone therapy." },
-  { title: "Prenatal & Preconception", text: "Planning for pregnancy, early prenatal care and postpartum follow-up." },
-  { title: "STI Testing & Treatment", text: "Confidential, judgment-free screening and treatment." },
-  { title: "Gynecologic Concerns", text: "Irregular periods, PCOS, pelvic pain, infections and more." },
+  { title: "Prenatal Care", text: "Comprehensive prenatal assessments, patient-centered care plans, complication monitoring and education throughout pregnancy." },
+  { title: "Postpartum Wellness", text: "Physical and emotional recovery support, informed by years of bedside doula experience." },
+  { title: "Gynecology & Preventive Health", text: "Well-woman visits, Pap smears, and routine and acute gynecologic care." },
+  { title: "Contraception", text: "Counseling on every option, including IUD placement, tailored to your goals." },
+  { title: "Sexual & Reproductive Health", text: "Confidential, judgment-free, inclusive care for people of all genders and identities." },
+  { title: "Trauma-Informed Care", text: "Every visit moves at your pace, with your consent and comfort at the center." },
 ];
