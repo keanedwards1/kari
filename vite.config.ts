@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 import tsConfigPaths from "vite-tsconfig-paths";
 
-export default defineConfig(({ command }) => ({
+export default defineConfig({
   plugins: [
     tailwindcss(),
     tsConfigPaths({ projects: ["./tsconfig.json"] }),
@@ -17,15 +17,7 @@ export default defineConfig(({ command }) => ({
       // Use src/server.ts as the SSR entry so its error wrapper is included.
       server: { entry: "server" },
     }),
-    ...(command === "build"
-      ? [
-          nitro({
-            preset: "cloudflare-module",
-            output: { dir: "dist", serverDir: "dist/server", publicDir: "dist/client" },
-            cloudflare: { nodeCompat: true, deployConfig: true },
-          }),
-        ]
-      : []),
+    nitro(),
     react(),
   ],
   css: { transformer: "lightningcss" },
@@ -45,4 +37,4 @@ export default defineConfig(({ command }) => ({
     ignoreOutdatedRequests: true,
   },
   server: { host: "::", port: 8080 },
-}));
+});
