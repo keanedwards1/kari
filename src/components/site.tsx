@@ -3,7 +3,6 @@ import type { ReactNode } from "react";
 
 const nav = [
   { to: "/", label: "Home" },
-  { to: "/services", label: "Services" },
   { to: "/about", label: "About" },
   { to: "/contact", label: "Contact" },
 ] as const;
@@ -24,7 +23,7 @@ export function Shell({ children }: { children: ReactNode }) {
             ))}
           </nav>
           <Link to="/contact" className="rounded-full bg-primary px-5 py-2 text-sm text-primary-foreground hover:opacity-90">
-            Book a visit
+            Get in touch
           </Link>
         </div>
       </header>
@@ -61,11 +60,3 @@ export function PageHeader({ eyebrow, title, intro }: { eyebrow: string; title: 
   );
 }
 
-export const services = [
-  { title: "Prenatal Care", text: "Comprehensive prenatal assessments, patient-centered care plans, complication monitoring and education throughout pregnancy." },
-  { title: "Postpartum Wellness", text: "Physical and emotional recovery support, informed by years of bedside doula experience." },
-  { title: "Gynecology & Preventive Health", text: "Well-woman visits, Pap smears, and routine and acute gynecologic care." },
-  { title: "Contraception", text: "Counseling on every option, including IUD placement, tailored to your goals." },
-  { title: "Sexual & Reproductive Health", text: "Confidential, judgment-free, inclusive care for people of all genders and identities." },
-  { title: "Trauma-Informed Care", text: "Every visit moves at your pace, with your consent and comfort at the center." },
-];
